@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  transition: all .1s ease-in;
+}
+
+body {
+  font-family: Segoe UI,sans-serif;
+  font-size: 16px;
+  text-align: center;
+ }
+
+.ba-header {
+  min-height: 100vh;
+  background-color: #23232e;
+  color: #fff;
+  padding-top: 5em;
+}
+
+.container {
+  max-width: 970px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h1{
+  margin-top: 2.25em;
+  margin-bottom: 0.75em;
+}
+
+.ba-title {
+  font-size: 5em;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0;
+  font-weight: bold;
+  line-height: 1.875rem;
+}
+
+.ba-title_grey {
+  color: #464b4f;
+  margin-bottom: 1.125em;
+  margin-top: 1.5em;
+}
+
+.ba-header p {
+  font-size: 1.125em;
+  line-height: 1.875rem;
+  font-weight: 400;
+  margin-bottom: 9.34em;
+}
+
+.ba-btn-arrow {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-top: 1em;
+  margin-bottom: 2.5em;
+}
+
+.ba-btn-arrow:before,
+.ba-btn-arrow:after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 16px;
+  background-color: #fff;
+  transform: rotate(45deg) translate(8px, 5px);
+}
+
+.ba-btn-arrow:after {
+  transform: rotate(-45deg) translate(-8px, 5px);
+}
+
+.ba-btn-arrow:hover:before,
+.ba-btn-arrow:hover:after{
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 16px;
+  background-color: #fff;
+  transform: rotate(-45deg) translate(-5px, 8px);
+  
+}
+.ba-btn-arrow:hover:after {
+  transform: rotate(45deg) translate(5px, 8px);
+  
+}
+
+.visually-hidden {
+  visibility: hidden;
+  font-size: 5em;
+  margin: 0;
+}
+
+.ba-section p {
+  font-size: 1.875em;
+  line-height: 2.625rem;
+  font-weight: 400;
+  color: #464b4f;
+}
+.ba-section p:first-of-type{
+  margin-top: 0.47em;
+  margin-bottom: 1.5em;
+}
+
+.ba-skills {
+  font-size: 0;
+}
+
+.ba-skill {
+  width: 33.333%;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 16px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.ba-skill__title {
+  font-size: 1.125em;
+  line-height: 2.625rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #464b4f;
+}
+
+.ba-skill-desc p {
+  font-size: 1.125em;
+  line-height: 1.875rem;
+  font-weight: 400;
+  color: #888a8b;
+}

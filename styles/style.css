@@ -24,7 +24,7 @@ body {
 }
 
 h1{
-  margin-top: 2.25em;
+  margin-top: 1em;
   margin-bottom: 0.75em;
 }
 
@@ -47,7 +47,7 @@ h1{
   font-size: 1.125em;
   line-height: 1.875rem;
   font-weight: 400;
-  margin-bottom: 9.34em;
+  margin-bottom: 4em;
 }
 
 .ba-btn-arrow {
@@ -82,11 +82,11 @@ h1{
   width: 16px;
   background-color: #fff;
   transform: rotate(-45deg) translate(-5px, 8px);
-  
+  transition: .5s;
 }
 .ba-btn-arrow:hover:after {
   transform: rotate(45deg) translate(5px, 8px);
-  
+  transition: .5s;
 }
 
 .visually-hidden {
